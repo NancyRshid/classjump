@@ -56,5 +56,5 @@ public class Teacher {
     public void deletcourse(String courseName){
         courses.removeIf(course -> course.getName().equals(courseName));
     }
-
+    
 }
